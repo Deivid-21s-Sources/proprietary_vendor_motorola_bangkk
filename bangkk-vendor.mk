@@ -3321,6 +3321,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/etc/sensors/config/strait_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_power_0.json \
     vendor/motorola/bangkk/proprietary/vendor/etc/sensors/config/strait_qmc6308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qmc6308_0.json \
     vendor/motorola/bangkk/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/motorola/bangkk/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
     vendor/motorola/bangkk/proprietary/vendor/etc/thermal-engine-bangkk-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-bangkk-camera.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/thermal-engine-bangkk-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-bangkk-game-normal.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/thermal-engine-bangkk-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-bangkk-game-perf.conf \
@@ -3449,8 +3450,10 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
+    libAncFaceDetect \
     libBSTSWAD \
     libRbsFlow \
+    libancbase_fd \
     libarcsoft_chi_utils \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
