@@ -3453,6 +3453,8 @@ PRODUCT_PACKAGES += \
     libAncFaceDetect \
     libBSTSWAD \
     libRbsFlow \
+    libaidenoiser \
+    libaidenoiserv2 \
     libancbase_fd \
     libarcsoft_chi_utils \
     libarcsoft_hdr_detection \
@@ -3471,6 +3473,7 @@ PRODUCT_PACKAGES += \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
+    libcamxifestriping \
     libcamximageformatutils \
     libcamxqsatalgo \
     libcamxstatscore \
@@ -3480,7 +3483,10 @@ PRODUCT_PACKAGES += \
     libchilog \
     libcom.qti.chinodeutils \
     libets_teeclient_v3 \
+    libipebpsstriping \
+    libipebpsstriping170 \
     libjpege \
+    liblowlight_ai_portrait.arcsoft \
     libmctfengine_stub \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -3498,6 +3504,9 @@ PRODUCT_PACKAGES += \
     libofflinelog \
     libopencv \
     libopestriping \
+    libportrait_repair_ppl3_ocl \
+    libqll10 \
+    libqllengine \
     libremosaic_wrapper \
     libswregistrationalgo \
     libtfestriping \
